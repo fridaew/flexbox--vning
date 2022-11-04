@@ -1,0 +1,139 @@
+body {
+    background-color: red
+}
+.parent {
+    background-color:blanchedalmond;
+    min-height: 750px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.small {
+    background-color: lightgray;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue {
+   background-color: blue;
+   width: 160px;
+   height: 50px;
+   margin: 25px;
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.pink {
+    background-color: rgb(249, 36, 164);
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.pink1 {
+    background-color: rgb(249, 36, 164);
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.pink2 {
+    background-color: rgb(249, 36, 164);
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    align-self: stretch;
+}
+
+.parent2{
+    background-color: white;
+    height: 575px;
+    width: 1000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.big {
+    background-color: darkgray;
+    height: 550px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.red {
+    background-color: red;
+    height: 500px;
+    width: 300px;
+    margin: 15px;
+    align-self: column;    
+}
+
+
+.red-middle {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    position: relative;
+    left: 200px;
+    
+}
+
+.red-small {
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    position: relative;
+    right: 10p;
+    align-self:flex-end;
+}
+
+.middle {
+    background-color: gray;
+    height: 550px;
+    width: 300px; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+.green-top {
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    margin: 2px;
+    
+}
+
+.green-middle {
+    background-color: green;
+    width: 40px;
+    height: 100px;
+    
+}
+
+.green-bottom {
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    margin: 2px;
+    
+}
+
+
+
